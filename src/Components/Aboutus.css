@@ -1,0 +1,14 @@
+.section {
+    display: flex;
+  }
+.column {
+    flex: 1;
+    padding: 3%;
+    border: none;
+  }
+.column h2{
+    color: navy;
+}
+.column p{
+    text-align:justify;
+}

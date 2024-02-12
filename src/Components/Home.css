@@ -1,0 +1,67 @@
+.sections {
+  justify-content: center;
+}
+
+.section-1 {
+    background-image:url(./Images/sec2-banner.png);
+    display: flex;
+    padding: 2%;
+    background-size: cover;
+}
+
+.intro-tech p {
+   font-weight: 450;
+ 
+}
+.title {
+    display: block;
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 15%;
+    color: navy;
+    font-size: 30px;
+}
+.intro-tech{
+    padding-top: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 12%;
+    
+}
+.section-2{
+    display: flex;
+    
+}
+.services{
+    padding-left: auto;
+}
+.services h1 {
+    color: navy;
+    border-radius: 75px;
+    font-size: 23px;
+    padding: 2%;
+    text-align: center;
+    border: 2px solid navy; 
+  
+}
+.service{
+    display: flex;
+    flex-direction:column ;
+    padding-left: 1%;
+    margin-bottom: 20px; 
+}
+.service h2{
+    text-align: justify;
+    color: navy;
+    border-radius: 75px;
+    padding: 1%;
+    font-size: medium;
+    margin-bottom: 10px;
+
+}
+.service p{
+    text-align: justify;
+    padding-left: 15px;
+    margin-top: 20px; 
+
+}

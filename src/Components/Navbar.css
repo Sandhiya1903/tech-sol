@@ -1,0 +1,36 @@
+.nav-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  padding: 25px;
+  background-color: navy;
+  color: white;
+  font-size: 22px;
+}
+
+.navbar-title {
+  margin-right: 2%; /* Pushes navbar-links to the right */
+
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links li:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
+  text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,31 @@
+.member-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0%;
+}
+
+.members {
+  margin:6%;
+}
+
+.mem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mem img {
+  height: 200px;
+  border-radius: 50%;
+ 
+ 
+}
+
+.mem img:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
+}
+.mem h3{
+  color: navy;
+}

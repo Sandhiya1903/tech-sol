@@ -1,0 +1,24 @@
+.contact{
+    margin: 2%;
+    text-align: justify;
+}
+.contact h1{
+    color: navy;
+}
+
+.contact-info{
+    display: flex;
+    
+}
+.contact-info h3{
+    color: navy;
+    
+}
+.contact-info p{
+    font-weight: 450;
+}
+.info{
+    flex: 1;
+    padding: 3%;
+    border: none;
+}
