@@ -7,12 +7,13 @@ function Navbar() {
     <nav className='nav-container'>
       <div className="navbar-title">TechSolutions Inc</div>
       <ul className="navbar-links">
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/about'>About</Link></li>
-        <li><Link to='/contact'>Contact</Link></li>
+        <li style={{paddingRight: '20px'}}><Link to='/'>Home</Link></li>
+        <li style={{paddingRight: '20px'}}><Link to='/about'>About</Link></li>
+        <li  style={{paddingRight: '20px'}}><Link to='/contact'>Contact</Link></li>
       </ul>
     </nav>
   );
 }
 
 export default Navbar;
+

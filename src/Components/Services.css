@@ -32,10 +32,7 @@ button {
   border-radius: 75px;
 }
 
-button.active {
-  background-color: navy;
-  color: #fff;
-}
+
 
 .info {
     text-align: center;
@@ -45,4 +42,6 @@ button.active {
 button:hover{
     transform: scale(1.05);
     transition: 0.7s;
+    background-color: navy;
+    color: white;
   }

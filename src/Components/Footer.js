@@ -10,6 +10,7 @@ function Footer() {
           <div className="footer-info">
             <h3>TechSolutions Inc</h3>
             <p>We are a leading tech company specializing in innovative solutions for businesses.</p>
+            <p>&copy; TechSolutions Inc. All rights reserved.</p>
           </div>
           <div className="footer-social">
             <h3>Follow Us</h3>
