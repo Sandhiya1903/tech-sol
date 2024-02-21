@@ -13,7 +13,7 @@
 }
 
 .navbar-title {
-  margin-right: auto; /* Change from margin-right: 65%; */
+  margin-right: auto; 
 }
 
 .navbar-links {
@@ -43,7 +43,6 @@ body {
   padding-top: 60px; 
 }
 
-/* Media Query for Mobile Devices */
 @media (max-width: 768px) {
   .nav-container {
     flex-direction: column;
@@ -54,7 +53,7 @@ body {
   
   .navbar-title {
     margin-right: auto;
-    margin-bottom: 10px; /* Add some spacing below the title */
+    margin-bottom: 10px;
   }
   
   .navbar-links {
@@ -64,6 +63,6 @@ body {
   }
   
   .navbar-links li {
-    margin: 5px 0; /* Add some vertical spacing between links */
+    margin: 5px 0; 
   }
 }
