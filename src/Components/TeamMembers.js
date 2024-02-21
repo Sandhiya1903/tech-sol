@@ -5,7 +5,7 @@ function TeamMembers({name,role,img}) {
   return (
     <div className='members'>
         <div className='mem'>
-         <img src={img} />
+         <img src={img}/>
           <h3>{name}<br></br>{role}</h3>
         </div>
       
