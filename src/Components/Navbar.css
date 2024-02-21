@@ -13,7 +13,7 @@
 }
 
 .navbar-title {
-  margin-right: 65%;
+  margin-right: auto; /* Change from margin-right: 65%; */
 }
 
 .navbar-links {
@@ -39,7 +39,31 @@
   color: inherit;
 }
 
-
 body {
   padding-top: 60px; 
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    font-size: 18px;
+  }
+  
+  .navbar-title {
+    margin-right: auto;
+    margin-bottom: 10px; /* Add some spacing below the title */
+  }
+  
+  .navbar-links {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+  }
+  
+  .navbar-links li {
+    margin: 5px 0; /* Add some vertical spacing between links */
+  }
 }
