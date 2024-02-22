@@ -9,11 +9,10 @@
   background-color: rgb(0, 0, 128);
   color: white;
   font-size: 22px;
- 
 }
 
 .navbar-title {
-  margin-right: auto; 
+  margin-right: auto;
   font-weight: bold;
 }
 
@@ -41,32 +40,33 @@
   color: inherit;
 }
 
-body {
-  padding-top: 60px; 
-}
-
 
 
 @media (max-width: 768px) {
   .nav-container {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     padding: 15px;
     font-size: 18px;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: relative;
   }
-  
+
   .navbar-title {
     margin-right: auto;
     margin-bottom: 10px;
   }
-  
+
   .navbar-links {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 0;
   }
-  
+
   .navbar-links li {
-    margin: 5px 0; 
+    margin: 5px 0;
   }
 }

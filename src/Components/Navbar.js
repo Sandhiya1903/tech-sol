@@ -6,6 +6,9 @@ function Navbar() {
   return (
     <nav className='nav-container'>
       <div className="navbar-title">TechSolutions Inc</div>
+      <div className='small'>
+        
+      </div>
       <ul className="navbar-links">
         <li style={{paddingRight: '20px'}}><Link to='/'>Home</Link></li>
         <li style={{paddingRight: '20px'}}><Link to='/about'>About</Link></li>
@@ -16,4 +19,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
